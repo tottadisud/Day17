@@ -1,0 +1,126 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+</body>
+<script>
+    var currentDate=new Date();
+    console.log(currentDate);
+    console.log(typeof(currentDate));
+    console.log(currentDate.getFullYear());
+    console.log(currentDate.getYear());
+    console.log(currentDate.getMonth());
+    console.log(currentDate.getDate());
+    console.log(currentDate.getHours());
+    console.log(currentDate.getSeconds());
+    console.log(currentDate.getMinutes());
+    console.log(Date.now());
+    console.log(currentDate.getMilliseconds());
+    console.log(new Date().getMonth());
+
+
+     var str1="sudheer kumar"
+     var re=new RegExp("kumar")
+     console.log(typeof(re));
+     console.log(re.test(str1));
+
+     var re1=/Kumar/
+     console.log(re1.test(str1));
+
+     str2="Happened in 1990"
+     console.log(/[0123456789]/.test(str2));
+     console.log(/[0-9]/.test(str2));
+     console.log(/[a-z]/.test(str2));
+
+
+     var date="15-12-2020"
+     console.log(/\d\d-\d\d-\d\d\d\d/.test(date)); 
+
+
+     var date1="tuesday-12-2020"
+     console.log(/\w\w\w\w\w\w\w-\d\d-\d\d\d\d/.test(date1));
+     console.log(/\w{7}-\d\d-\d\d\d\d/.test(date1));
+     console.log(/\w{2}-\d\d-\d\d\d\d/.test(date1));
+     console.log(/\w{8}-\d\d-\d\d\d\d/.test(date1));
+     console.log(/\w{0-8}-\d\d-\d\d\d\d/.test(date1));
+
+     date2="15 12 2020"
+     console.log(/\d\d \d\d \d\d\d\d/.test(date2));
+     console.log(/\d\d\s\d\d\s\d\d\d\d/.test(date2));
+     console.log(/\d\d\S\d\d\S\d\d\d\d/.test(date2));
+     console.log(/\d{2}\s\d{2}\s\d{4}/.test(date2));
+     console.log(/\D{2}\s\D{2}\s\D{4}/.test(date2));
+     console.log(/\w{2}\s\w{2}\s\w{4}/.test(date2));
+     console.log(/\W{2}\s\W{2}\s\W{4}/.test(date2));
+     console.log(/[^01]/.test(date2));
+     console.log(/[^14]/.test(date2));
+
+
+     var re_binary="100111001";
+     console.log(/[^10]/.test(re_binary))
+     console.log(/\d+/.test(date2));
+     console.log(/\d+/.test(""));
+
+     date3="hi";
+     console.log(/d+/.test(date2));
+     console.log(/d*/.test(date2));
+     console.log(/\w+/.test(date2));
+     console.log(/^h/.test(date2));
+     console.log(/^i/.test(date2));
+     console.log(/i$/.test(date2));
+     console.log(/z$/.test(date2));
+
+
+     date4="hello everyone";
+     console.log(/hellow? everyone/.test(date4));
+
+
+     var mobile="8184874919";
+     console.log(/^[6-9]{1}[0-9]{9}/.test(mobile));
+
+      var mobile2="123456789";
+      console.log(/^[6-9]{1}[0-9]{9}/.test(mobile2));
+
+      var mobile3="6534567554";
+      console.log(/^[6-9]{1}[0-9]{9}/.test(mobile));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
