@@ -1,0 +1,13 @@
+.successmessage{
+    background: green;
+    padding: 1%;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+.errorMessage{
+    background: orange;
+    padding: 1%;
+    border-radius: 20px 0px 20px 0px;
+
+}
